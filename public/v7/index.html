@@ -5,22 +5,22 @@
 
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="../shared/animate.css" />
-    <link href="https://fonts.googleapis.com/css?family=Anton|Concert+One|Fredoka+One|Lobster|Paytone+One|Teko|Ultra" rel="stylesheet" />
+    <script src="./anim.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
 
-  <body>
+  <body onLoad='main()'>
 
     <span class="panel">
 
       <div class="icon-panel">
-        <i class="fas fa-arrow-circle-up icon1"></i>
-        <i class="fas fa-arrow-circle-up icon2"></i>
+        <i id='icon1' class="fas icon1"></i>
+        <!-- <i id='icon2' class="fas fa-arrow-circle-up icon2"></i> -->
       </div>
 
       <div class="inner">
         <div class="b1 animated fadeInUp"
-        style="animation-delay: 0s">
+          style="animation-delay: 0s">
           Growth
         </div>
         <div class="b2 animated fadeInUp"
@@ -35,5 +35,7 @@
     </span>
 
   </body>
+
+  <link href="https://fonts.googleapis.com/css?family=Anton|Concert+One|Fredoka+One|Lobster|Paytone+One|Teko|Ultra" rel="stylesheet" />
 
 </html>
